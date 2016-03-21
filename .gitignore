@@ -45,3 +45,8 @@ $RECYCLE.BIN/
 Network Trash Folder
 Temporary Items
 .apdisk
+
+/www/public/vendor/fb
+db.php
+fb.php
+fb*.php

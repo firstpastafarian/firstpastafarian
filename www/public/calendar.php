@@ -1,5 +1,16 @@
 <?php
 
+/*
+require_once __DIR__ . '/fb.php';
+
+$request = $fb->get(
+  'GET',
+  '/firstpastafarian/events'
+);
+$response = $request->execute();
+$graphObject = $response->getGraphObject();
+*/
+
 if(isset($_REQUEST['month'])){
 	$month = $_REQUEST['month'];
 } else {
@@ -145,24 +156,6 @@ echo draw_calendar(6,2016);
 	</head>
 
 	<body>
-		<script>
-		window.fbAsyncInit = function() {
-			FB.init({
-				appId      : '556636367837640',
-				xfbml      : true,
-				version    : 'v2.5'
-			});
-		};
-
-		(function(d, s, id){
-			var js, fjs = d.getElementsByTagName(s)[0];
-			if (d.getElementById(id)) {return;}
-			js = d.createElement(s); js.id = id;
-			js.src = "//connect.facebook.net/en_US/sdk.js";
-			fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'));
-		</script>
-
 		<?php
 		if($month==1){
 			echo '<a href="?month=12&year='.($year-1).'">&laquo;</a>'.$monthName.' '.$year.'<a href="?month='.($month+1).'">&raquo;</a>';
@@ -173,13 +166,6 @@ echo draw_calendar(6,2016);
 		}
 		echo draw_calendar($month,$year);
 		?>
-
-		<div
-			class="fb-like"
-			data-share="true"
-			data-width="450"
-			data-show-faces="true">
-		</div>
 	</body>
 
 </html>
