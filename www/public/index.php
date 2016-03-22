@@ -13,11 +13,31 @@ include 'php/colors.php';
 	<body>
 		<table id="wrapper">
 			<tr>
-				<td>
-					<table>
+				<td align="center">
+					<table id="candy">
 						<tr>
-							<td valign="middle" align="center" id="stage">
+							<td class="spacer"></td>
+							<td>
+								<a class="block" href="/nmf.php">&laquo; NMF</a>
+							</td>
+							<td valign="middle" align="center" id="stage" class="spacer">
 								<noscript><img src="img/fsm.png" /></noscript>
+							</td>
+							<td>
+								<a class="block" href="/#youwish">calendar &raquo;</a>
+							</td>
+							<td class="spacer"></td>
+						</tr>
+						<tr>
+							<td colspan="5" align="center">
+								<p class="block-inline">
+									First Pastafarian Church of Norman, OK<br>
+									115 S Crawford Ave<br>
+									Norman, OK 73069<br>
+								</p>
+								<br>
+								<a href="https://www.facebook.com/FirstPastafarian/">facebook.com/FirstPastafarian</a><br>
+								<a href="mailto:FirstPastafarian@gmail.com">FirstPastafarian@gmail.com</a><br>
 							</td>
 						</tr>
 					</table>
@@ -27,7 +47,7 @@ include 'php/colors.php';
 
 		<script src="vendor/pixi.min.js"></script>
 		<script>
-			var renderer = PIXI.autoDetectRenderer(800, 600, { transparent: true });
+			var renderer = PIXI.autoDetectRenderer(700, 600, { transparent: true });
 			document.getElementById("stage").appendChild(renderer.view);
 
 			// create the root of the scene graph

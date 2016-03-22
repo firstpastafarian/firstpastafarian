@@ -152,7 +152,7 @@ echo draw_calendar(6,2016);
 
 	<head>
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link rel="stylesheet" type="text/css" href="css/calendar.css">
+		<link rel="stylesheet" type="text/css" href="css/calendar.css.php">
 	</head>
 
 	<body>
