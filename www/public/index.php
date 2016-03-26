@@ -8,9 +8,17 @@ include 'php/colors.php';
 	<head>
 		<title>First Pastafarian Church</title>
 		<link rel="stylesheet" type="text/css" href="/css/def.css.php">
+		<link rel="stylesheet" type="text/css" href="/css/head.css.php">
 		<link rel="stylesheet" type="text/css" href="/css/front.css.php">
 	</head>
 	<body>
+		<!--
+		<header>
+			<img id="logo-header" src="/img/fsm-logo.png" alt="First Pastafarian Church">
+			<h1>First Pastafarian Church</h1>
+		</header>
+		-->
+
 		<table id="wrapper">
 			<tr>
 				<td align="center">
@@ -18,13 +26,13 @@ include 'php/colors.php';
 						<tr>
 							<td class="spacer"></td>
 							<td>
-								<a class="block" href="/nmf.php">&laquo; NMF</a>
+								<a class="block" href="/nmf">&laquo; NMF</a>
 							</td>
 							<td valign="middle" align="center" id="stage" class="spacer">
 								<noscript><img src="img/fsm.png" /></noscript>
 							</td>
 							<td>
-								<a class="block" href="/#youwish">calendar &raquo;</a>
+								<a class="block" href="/testimony">testimony &raquo;</a>
 							</td>
 							<td class="spacer"></td>
 						</tr>
@@ -35,7 +43,6 @@ include 'php/colors.php';
 									115 S Crawford Ave<br>
 									Norman, OK 73069<br>
 								</p>
-								<br>
 								<a href="https://www.facebook.com/FirstPastafarian/">facebook.com/FirstPastafarian</a><br>
 								<a href="mailto:FirstPastafarian@gmail.com">FirstPastafarian@gmail.com</a><br>
 							</td>

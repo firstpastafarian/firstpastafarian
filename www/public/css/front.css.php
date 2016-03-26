@@ -1,4 +1,12 @@
 <?php header("Content-type: text/html"); include '../php/init.php'; include '../php/css.php'; ?>
+html, body {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+}
+
 #wrapper {
 	height: 100%;
 	width: 100%;

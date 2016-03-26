@@ -3,11 +3,10 @@ header {
 	display: flex;
 	flex-direction: row;
 
-	-webkit-justify-content: flex-end;
-	justify-content: flex-end;
+	-webkit-justify-content: flex-start;
+	justify-content: flex-start;
 
-	margin-right: 48px;
-	padding-right: 32px;
+	padding-left: 7px;
 	height: 56px;
 
 	background: #<?php print hex( $_SESSION['color'][0] ); ?>;;
@@ -23,8 +22,16 @@ header {
 #logo-header {
 	height: 24px;
 	margin-right: 11px;
-	padding: 17px 0 0 13px;
+	padding: 15px 0 0 17px;
 	float: right;
+}
+
+header h1 {
+	color: #fff;
+	font-size: 2em;
+	text-shadow: 1px 1px 0 #000, -1px -1px 1px #<?php print hex($_SESSION['color'][2]); ?>, -1px -1px 0 #<?php print hex($_SESSION['color'][1]); ?>;
+	margin-top: 11px;
+	white-space: nowrap;
 }
 
 header ul {

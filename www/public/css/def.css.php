@@ -1,7 +1,7 @@
 <?php header("Content-type: text/html"); include '../php/init.php'; include '../php/css.php'; ?>
 body {
 	font-family: sans-serif;
-	color: #000;
+	color: #fff;
 
 	background: -webkit-gradient(radial, 0% 0%, 0% 100%, from(#<?php print hex($_SESSION['color'][1]); ?>), to(#<?php print hex($_SESSION['color'][0]); ?>));
 	background: -webkit-radial-gradient(50px 50px, circle cover, #<?php print hex($_SESSION['color'][1]); ?>, #<?php print hex($_SESSION['color'][0]); ?>);
