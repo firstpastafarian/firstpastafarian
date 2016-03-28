@@ -89,6 +89,12 @@ include 'php/colors.php';
 			"I've never been more envious of someone else's life"<br>
 			&mdash; Nathan E, in response to Taylor D's enviable life of listening to beatboxering digeridooers
 		</p>
+		<!--
+		</p>
+			"" <a href="#">&#128279;</a><br>
+			&mdash; , 
+		</p>
+		-->
 		<a class="block" href="/">back &raquo;</a>
 
 		<div id="stage">
