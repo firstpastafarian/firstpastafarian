@@ -90,9 +90,9 @@ include 'php/colors.php';
 									<li>Quinn Beitfeller</li>
 								<!--16/3/11-->
 									<li>Skel</li>
-									<li><a href="http://dj.beatport.com/jessestrange">Jesse Strange</a>
-									<li><a href="https://soundcloud.com/gradeaofficial">Grade A</a>
-									<li><a href="https://www.facebook.com/djbrndnc">BRNDNC</a>
+									<li><a href="http://dj.beatport.com/jessestrange">Jesse Strange</a></li>
+									<li><a href="https://soundcloud.com/gradeaofficial">Grade A</a></li>
+									<li><a href="https://www.facebook.com/djbrndnc">BRNDNC</a></li>
 								<!--16/3/12-->
 									<li><a href="https://haunter0.bandcamp.com/">Haunter from Iowa</a></li>
 									<li><a href="https://tapegunrecords.bandcamp.com/track/repioneers">Repioneers</a></li>
@@ -146,7 +146,7 @@ include 'php/colors.php';
 						</tr>
 					</table>
 					<br>
-					Please contact FirstPastafarian@gmail.com for correction (or whatever)<br><br><br><br>
+					Please contact FirstPastafarian@gmail.com for corrections (or whatever)<br><br><br><br>
 					<a class="block" href="/">back to main page &raquo;</a>
 				</td>
 			</tr>

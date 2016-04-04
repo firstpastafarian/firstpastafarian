@@ -10,16 +10,17 @@ header {
 }
 
 header h1 {
-	z-index: 3 !important;
+	z-index: 2 !important;
 	margin: 0;
-	padding: 0;
+	padding: 10px 0;
 	border: 0;
+	text-align: center;
 }
 
 #wrapper {
 	height: 100%;
 	width: 100%;
-	z-index: 0;
+	z-index: 3;
 }
 
 #nmf-logo {
@@ -98,7 +99,7 @@ h2 {
 	position: fixed;
 	top: 10px;
 	left: 10px;
-	z-index: 5;
+	z-index: -1;
 }
 
 ul {
@@ -110,7 +111,7 @@ ul {
 li {
 	display: inline-block;
 	background: #000;
-	padding: 7px;
-	margin: 3px;
+	padding: 13px 17px;
+	margin: 3px 1px;
 	font-size: 1.3em;
 }

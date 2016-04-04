@@ -10,13 +10,13 @@ header {
 }
 
 header h1 {
-	z-index: 3 !important;
+	z-index: 2 !important;
 }
 
 #wrapper {
 	height: 100%;
 	width: 100%;
-	z-index: 0;
+	z-index: 3;
 }
 
 #nmf-logo {
@@ -27,6 +27,7 @@ header h1 {
 h2 {
 	font-size: 1.2em;
 	padding-left: 13px;
+	color: #<?php print hex($_SESSION['color'][4]); ?>;
 }
 
 #candy th {
@@ -87,13 +88,11 @@ h2 {
 	font-size: 2em;
 	text-shadow: 1px 1px 0 #000, -1px -1px 1px #<?php print hex($_SESSION['color'][2]); ?>, -1px -1px 0 #<?php print hex($_SESSION['color'][1]); ?>;
 	color: #<?php print hex($_SESSION['color'][3]); ?>;
-
-	background: #000;
-} h1 { color: #fff !important; }
+} h1.block { color: #fff !important; }
 
 #stage {
 	position: fixed;
 	top: 10px;
 	left: 10px;
-	z-index: 5;
+	z-index: -1;
 }
